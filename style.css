@@ -3,3 +3,17 @@ body {
     color: #222;
     font-family: arial,sans-serif;
   }
+nav { 
+    background-color: greenyellow;
+  }
+.nav-bar { 
+    float: right;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+.principal { 
+    text-align: center;
+  }
+  .principal img { 
+    margin-top: 150px;
+  }

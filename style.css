@@ -3,14 +3,16 @@ body {
     color: #222;
     font-family: arial,sans-serif;
   }
-nav { 
-    background-color: greenyellow;
-  }
-.nav-bar { 
+
+.nav-bar a { 
     float: right;
     margin-top: 15px;
     margin-left: 15px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 14px;
+    text-decoration: none;
   }
+
 .principal { 
     text-align: center;
   }

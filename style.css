@@ -4,6 +4,10 @@ body {
     font-family: arial,sans-serif;
   }
 
+  nav { 
+    padding-top: 1px;
+  }
+
 .nav-bar a { 
     float: right;
     margin-top: 15px;
@@ -17,22 +21,25 @@ body {
   .nav-bar a:hover { 
     text-decoration: underline;
   }
-  .links { 
-    z-index: 987;
-    background-color: yellow;
+  #google a:hover { 
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
   }
-
+  
  #user { 
-    margin: -7px;
+    border-radius: 50%;
+    margin: -9px;
     height: 32px;
     width: 32px;
     margin-left: 0!important;
     margin-right: 0!important;
+    padding-right: 5px;
 }
 
 .principal { 
     text-align: center;
   }
   .principal img { 
-    margin-top: 150px;
+    margin-top: 160px;
   }

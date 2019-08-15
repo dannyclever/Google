@@ -4,7 +4,7 @@ body {
     font-family: arial,sans-serif;
   }
 
-  nav { 
+  .nav-bar { 
     padding-top: 1px;
   }
 
@@ -41,5 +41,30 @@ body {
     text-align: center;
   }
   .principal img { 
-    margin-top: 160px;
-  }
+    margin-top: 190px;
+    margin-left: 150px;
+ }
+
+ .search {
+  background: #fff;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 582px;
+}
+
+ #searchForm {
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  margin-top: -37px;
+  width: 474px;
+  height: 34px;
+}

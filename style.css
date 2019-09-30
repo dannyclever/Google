@@ -81,3 +81,22 @@ body {
   margin-top: 10px;
   margin-left: 5px;
 }
+
+.submits {
+  margin-top: 22px;
+}
+
+.submits input[type="submit"] {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+}

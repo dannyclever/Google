@@ -106,3 +106,13 @@ body {
   height: 36px;
   line-height: 27px;
 }
+
+.submits p {
+  font-size: small;
+  margin-bottom: 32px
+}
+
+.submits p a {
+  color: #609;
+  text-decoration: none;
+}

@@ -4,11 +4,11 @@ body {
     font-family: arial,sans-serif;
   }
 
-  .nav-bar { 
+  .menu { 
     padding-top: 1px;
   }
 
-.nav-bar a { 
+.menu a { 
     float: right;
     margin-top: 15px;
     margin-left: 15px;
@@ -18,7 +18,7 @@ body {
     z-index: 987;
   }
 
-  .nav-bar a:hover { 
+  .menu a:hover { 
     text-decoration: underline;
   }
   #google a:hover { 
@@ -46,7 +46,7 @@ body {
  }
 
  .search {
-  background: #fff;
+  background: #fff url(/img/search.png);
   border-radius: 8px;
   border: 1px solid #dfe1e5;
   box-shadow: none;
@@ -62,6 +62,22 @@ body {
   border: none;
   color: rgba(0,0,0,.87);
   outline: none;
-  width: 474px;
-  height: 34px;
+  width: 487px;
+  height: 39px;
+  font-size: medium;
+}
+
+#iconSearch {
+  position: absolute;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: -31px;
+}
+
+#microGoogle {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-top: 10px;
+  margin-left: 5px;
 }

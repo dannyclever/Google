@@ -39,6 +39,7 @@ body {
 
 .principal { 
     text-align: center;
+    height: 511px;
   }
   .principal img { 
     margin-top: 190px;
@@ -115,4 +116,30 @@ body {
 .submits p a {
   color: #609;
   text-decoration: none;
+}
+
+footer {
+  margin-top: 24px;
+}
+
+.ftcountry {
+  margin-left: 30px;
+  text-align: left;
+  color: rgba(0,0,0,.54);
+  padding-left: 27px;
+}
+.bg {
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  min-width: 980px;
+}
+
+.bar ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.bar ul li {
+  display: inline-block;
 }

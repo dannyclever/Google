@@ -6,6 +6,7 @@ body {
 
   .menu { 
     padding-top: 1px;
+    height: 14px;
   }
 
 .menu a { 
@@ -39,7 +40,7 @@ body {
 
 .principal { 
     text-align: center;
-    height: 511px;
+    height: 518px;
   }
   .principal img { 
     margin-top: 190px;
@@ -120,13 +121,15 @@ body {
 
 footer {
   margin-top: 24px;
+  font-size: 13px;
+  margin-left: -27px;
 }
 
 .ftcountry {
-  margin-left: 30px;
   text-align: left;
   color: rgba(0,0,0,.54);
-  padding-left: 27px;
+  padding-left: 38px;
+  font-size: 15px;
 }
 .bg {
   background: #f2f2f2;
@@ -140,6 +143,17 @@ footer {
   list-style: none;
 }
 
+.bar ul a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
 .bar ul li {
   display: inline-block;
+  margin-right: 30px;
 }
+
+.legalterms {
+    float: right;
+    white-space: nowrap;
+  }

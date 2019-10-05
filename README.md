@@ -16,4 +16,4 @@ Used:
 
 ## The Website
 
-Follow the link to acess to the Website: https://github.com/dannyclever/apple-page
+Follow the link to acess to the Website: https://dannyclever.github.io/google-homepage/
